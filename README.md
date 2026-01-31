@@ -1,30 +1,72 @@
-# Tech event landing page
+# DevEvent 2026 - Tech Event Landing Page
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A modern, high-performance landing page for a technical conference, built with Next.js, Tailwind CSS, and shadcn/ui components. This project features a clean, professional design optimized for conversion and information delivery.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/giulloas-projects-c686cfdb/v0-tech-event-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/qTVZROiRNAv)
+## 🚀 Features
 
-## Overview
+- **Hero Section**: Impactful heading with event details (March 15-17, 2026 • San Francisco) and primary call-to-action.
+- **About Section**: Detailed event overview with a statistics grid (Attendees, Speakers, Sessions, Days).
+- **Agenda/Expectations**: Feature cards highlighting Keynotes, Technical Workshops, and Networking events, including a day-by-day summary.
+- **Registration CTA**: A prominent registration section with a secondary "Download Brochure" option.
+- **Responsive Navigation**: Mobile-friendly navigation bar with quick links to About, Agenda, and Registration.
+- **Theme Support**: Integrated with `next-themes` and a `ThemeProvider` for consistent styling.
+- **Analytics**: Ready for deployment with `@vercel/analytics`.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🛠️ Tech Stack
 
-## Deployment
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **UI Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Components**: [shadcn/ui](https://ui.shadcn.com/) (based on Radix UI)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Fonts**: [Geist & Geist Mono](https://vercel.com/font)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-Your project is live at:
+## 🏁 Getting Started
 
-**[https://vercel.com/giulloas-projects-c686cfdb/v0-tech-event-landing-page](https://vercel.com/giulloas-projects-c686cfdb/v0-tech-event-landing-page)**
+### Prerequisites
 
-## Build your app
+- Node.js 20+ 
+- pnpm (recommended) or npm/yarn
 
-Continue building your app on:
+### Installation
 
-**[https://v0.app/chat/qTVZROiRNAv](https://v0.app/chat/qTVZROiRNAv)**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GiselleUlloa/v0-tech-event-landing-page.git
+   cd v0-tech-event-landing-page
+   ```
 
-## How It Works
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+3. Start the development server:
+   ```bash
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📜 Available Scripts
+
+- `pnpm dev`: Runs the app in development mode.
+- `pnpm build`: Builds the application for production.
+- `pnpm start`: Starts the production server.
+- `pnpm lint`: Runs ESLint to check for code quality issues.
+
+## 📁 Project Structure
+
+- `/app`: Contains the Next.js App Router pages and global styles.
+- `/components`: Reusable UI components (including shadcn/ui primitives).
+- `/lib`: Utility functions and shared logic.
+- `/public`: Static assets like icons and images.
+- `/styles`: Global CSS and Tailwind configurations.
+
+## 🔄 Automatic Sync
+
+This repository is automatically synced with deployments from [v0.app](https://v0.app). Any changes made through the v0 interface will be reflected here.
+
+---
+© 2026 DevEvent.
